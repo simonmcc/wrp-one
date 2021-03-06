@@ -9,6 +9,8 @@ before:
 builds:
   -
     main: dummy.go
+    goos:
+      - linux
     goarch:
       - amd64
     binary: wrp-one
